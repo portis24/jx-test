@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.106.214.89:5000/portis24/jx-test
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: jx-test
